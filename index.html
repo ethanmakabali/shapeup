@@ -10,6 +10,19 @@
 	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
 	<![endif]-->
 
+	<!-- Slickav Links -->
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://www.w3schools.com/jquery/jquery_get_started.asp"></script>
+	<script> src="js/jquery.slicknav.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+		});
+	</script>
+
+
 	<link rel="stylesheet" href="styles/main.css">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<title>Shape Up</title>
@@ -26,6 +39,7 @@
 	</header>
 
 
+	<nav id="mobilemenu"></nav>
 
 	<nav id="nav_menu">
 		<ul> 
