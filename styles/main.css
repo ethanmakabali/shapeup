@@ -252,3 +252,10 @@ footer p {
     }
 
 }
+
+@media (max-width: 479px) {
+    header{
+        flex-direction: column;
+        
+    }
+}
